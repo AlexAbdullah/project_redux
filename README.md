@@ -77,5 +77,6 @@ After some data preparation such as dropping columns, renaming columns and remov
 * The most commonly occurring motive for shootings in our analysis was domestic disputes. 
   
 * Mental Illness occurred far more frequently as a motive versus Race
+  - We must note that mental illness included any diagonoses ranging from depression to psychosis. Further study could be made to explore which diagnoses correlated with the largest number of shootings
 
 ### Mental Illness vs Race 
