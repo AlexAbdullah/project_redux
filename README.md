@@ -59,19 +59,34 @@ After some data preparation such as dropping columns, renaming columns and remov
 `History of Mental Illness - General`: Indication if shooter had a mental illness     
 
 -------
-## Data Analysis 
+## Data Analysis  
 ### The Numbers
-* California had the highest number of recorded mass shootings As of 2021, the estimated population of California is 39.24 million making it the highest populated city in the US.
-
-* The handgun was the most popular weapon used Accessible and most affordable of the observed firearms (~$350 USD)
-
-* Over 98% of shootings were commited by a male perpetrator This could be part of a whole separate analysis. Males generally tend to exhibit more violent tendencies than women. Approximately 81% of crimes in the US are committed by males.
-
-* The average shooter age was ~33 years old Shootings were committed by perpetrators anywhere from 15 to 59 years of age.
-
-* The most commonly occurring motive for shootings in our analysis was domestic disputes.
-
+* California had the highest number of recorded mass shootings (15)
+  - As of 2021, the estimated population of California is 39.24 million making it the highest populated city in the US. 
+  - This state also has the highest rate of homelessness with an over 150,000 homeless people
+  - There appears to be a correlation between the population of a state and the number of mass shooting occurences at least in the top of each. Further analysis was not conducted on this exploration question as it was outside the scope of our study.
+  
+* The handgun was the most popular weapon used
+  - Accessible and most affordable of the observed firearms (~$350 USD)
+  - Additionally, The Gun Control Act of 1968 (GCA), which regulates firearms at the federal level, requires that citizens and legal residents must be at least 18 years of age to purchase shotguns or rifles and ammunition. All other firearms — handguns, for example — can only be sold to people 21 and older
+  
+* Over 98% of shootings were commited by a male perpetrator
+  - This could be part of a whole separate analysis. Males generally tend to exhibit more violent tendencies than women.
+  - Approximately 81% of crimes in the US are committed by males.
+  
+* The average shooter age was ~33 years old
+  - Shootings were committed by perpetrators anywhere from 15 to 59 years of age.
+  - Mental Illness shooters -> 26 & 34 years of age
+  - Without Mental Illness -> 15 & 45 years of age
+  
+* The most commonly occurring motive for shootings in our analysis was domestic disputes. 
+  
 * Mental Illness occurred far more frequently as a motive versus Race
+  - We must note that mental illness included any diagonoses ranging from depression to psychosis. Further study could be made to explore which diagnoses correlated with the largest number of shootings.
+
+### Challenges
+  - Limited datasets available. Difficulty was encountered locating useful information containing information pertaining to key variables such as mental illness record and race. 
+  - Due to time constraints, we were unable to conduct additional research to integrate supporting findings into our exploration. Vast majority of our time was spent exploring the datasets we had available
 -----
 ## Shootings Per Year
 * Top 3 years with the highest number of shootings by perpetrators with a mental illness were in 2012, 2015 and 2016. 
@@ -102,4 +117,11 @@ Below are the age distrubiton of the perpetrators with and without a mental illn
 * For perpetrators with a mental illness, their primary motive was due to their mental health. However, for those without a mental health, the primary known motive were due to social disputes. 
 ![Motive for Mental Health Shooters](motive_mental.png)
 ![Motive for Non Mental Health](motive_non_mental.png)
------- 
+
+-------- 
+# Victims Involved 
+![Victims Involved](victims.png)
+
+# Weapons Used 
+* Weapons used by perpetrators.
+![Weapons](weapons.png)
