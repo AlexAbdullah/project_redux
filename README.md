@@ -62,14 +62,15 @@ After some data preparation such as dropping columns, renaming columns and remov
 ## Data Analysis 
 ### The Numbers
 * California had the highest number of recorded mass shootings
-  As of 2021, the estimated population of California is 39.24 million making it the highest populated city in the US. 
+  - As of 2021, the estimated population of California is 39.24 million making it the highest populated city in the US. 
+  - This state also has the highest rate of homelessness with an over 150,000 homeless people
   
 * The handgun was the most popular weapon used
   Accessible and most affordable of the observed firearms (~$350 USD)
   
 * Over 98% of shootings were commited by a male perpetrator
-  This could be part of a whole separate analysis. Males generally tend to exhibit more violent tendencies than women.
-  Approximately 81% of crimes in the US are committed by males.
+  - This could be part of a whole separate analysis. Males generally tend to exhibit more violent tendencies than women.
+  - Approximately 81% of crimes in the US are committed by males.
   
 * The average shooter age was ~33 years old
   Shootings were committed by perpetrators anywhere from 15 to 59 years of age.
