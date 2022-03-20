@@ -59,7 +59,7 @@ After some data preparation such as dropping columns, renaming columns and remov
 `History of Mental Illness - General`: Indication if shooter had a mental illness     
 
 -------
-## Data Analysis 
+## Data Analysis  
 ### The Numbers
 * California had the highest number of recorded mass shootings (15)
   - As of 2021, the estimated population of California is 39.24 million making it the highest populated city in the US. 
@@ -87,3 +87,41 @@ After some data preparation such as dropping columns, renaming columns and remov
 ### Challenges
   - Limited datasets available. Difficulty was encountered locating useful information containing information pertaining to key variables such as mental illness record and race. 
   - Due to time constraints, we were unable to conduct additional research to integrate supporting findings into our exploration. Vast majority of our time was spent exploring the datasets we had available
+-----
+## Shootings Per Year
+* Top 3 years with the highest number of shootings by perpetrators with a mental illness were in 2012, 2015 and 2016. 
+![Yearly Shootings](yearly_mental_shootings.png)
+* Interestingly, the most shootings that took place where the perpetrator didn't suffer from a mental illness were in 2007, 2014, and 2015. 
+
+![Non Mental Illess](non_mental_yearly_shootings.png)
+
+* <b><u>Comments</u></b>:
+With additional time, we could have resarched as to why this may have been the case such as whether there is a correlation between the increase in mental health in recent years vs previously.
+-----
+## Shooting Occurances Across the US
+These incidents occured most in California as well as the east coast of the United States. 
+
+![Mental Shootings State](shootings_mental_state.png) 
+![Non Mental Illness in US](plotting_non_shootings.png)
+
+Top 5 states where shootings occured most. 
+![Top 5 States](top_5_states.png)
+
+------
+# Perpetrator Age Distribution
+Below are the age distrubiton of the perpetrators with and without a mental illness.
+![Age of Shooter with Mental Illness](shooter_age_mental_illness.png)
+![Age of Shooter without Mental Illness](age_without_mental_illness.png)
+--------
+# Motive 
+* For perpetrators with a mental illness, their primary motive was due to their mental health. However, for those without a mental health, the primary known motive were due to social disputes. 
+![Motive for Mental Health Shooters](motive_mental.png)
+![Motive for Non Mental Health](motive_non_mental.png)
+
+-------- 
+# Victims Involved 
+![Victims Involved](victims.png)
+
+# Weapons Used 
+* Weapons used by perpetrators.
+![Weapons](weapons.png)
